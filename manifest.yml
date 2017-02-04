@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: test0123
+  host: test0123
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
